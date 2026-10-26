@@ -28,19 +28,19 @@ const amber = {
 <br>
   
 ### :octocat: GitHub Stats
-<a href="https://github.com/lukegotbored">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukegotbored&hide=tex&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21&langs_count=3" />
+<a href="https://github.com/n3konet">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=n3konet&hide=tex&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21&langs_count=3" />
 </a>
-<a href="https://github.com/lukegotbored">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=lukegotbored&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21" alt="Taulant's GitHub Stats" />
-</a>
-
-<a href="https://github.com/lukegotbored/Party">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lukegotbored&repo=Party&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21" />
+<a href="https://github.com/n3konet">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=n3konet&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21" alt="Taulant's GitHub Stats" />
 </a>
 
-<a href="https://github.com/lukegotbored/taulantxhakli.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lukegotbored&repo=focus&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21" />
+<a href="https://github.com/n3konet/Party">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=n3konet&repo=Party&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21" />
+</a>
+
+<a href="https://github.com/n3konet/Focus">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=n3konet&repo=focus&title_color=ffffff&text_color=c9cacc&icon_color=blueviolet&bg_color=1d1f21" />
 </a>  
 
 <br>
