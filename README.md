@@ -16,11 +16,9 @@
   </picture>
 </div>
 
+<br/>
 <p align="center">
   <a href="https://owo.rocks">owo.rocks</a> &nbsp;·&nbsp;
-  <a href="https://clipverse.net">clipverse.net</a> &nbsp;·&nbsp;
-  <a href="https://t.me/clipwav">Telegram</a> &nbsp;·&nbsp;
-  <a href="https://discord.com/users/305771483865546752">Discord</a> &nbsp;·&nbsp;
   <a href="mailto:nori@owo.rocks">nori@owo.rocks</a>
 </p>
 
