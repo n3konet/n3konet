@@ -31,7 +31,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           BIRTHDAY: ${{ secrets.BIRTHDAY }}
         run: |
-          python3 scripts/generate_stats.py
+          python3 scripts/generate-stats.py
 
           if [ -n "$(git status --porcelain assets/ README.md)" ]; then
             git config user.name "github-actions[bot]"
