@@ -87,7 +87,7 @@ def fetch_stats():
 
 
 def render_svg(c, commits, stars, repos, langs):
-    bar_w, x_cursor = 336, 0
+    bar_w, x_cursor = 340, 0
     bar_rects, legend_items = [], []
     total_pct = sum(pct for _, pct in langs) or 1
 
@@ -99,18 +99,18 @@ def render_svg(c, commits, stars, repos, langs):
         bar_rects.append(f'<rect x="{x_cursor}" y="0" width="{seg_w}" height="10" fill="{color}"/>')
         x_cursor += seg_w
 
-        lx, ly = (i % 2) * 168, (i // 2) * 20
+        lx, ly = (i % 2) * 182, (i // 2) * 20
         legend_items.append(
             f'<g transform="translate({lx},{ly})">'
             f'<circle cx="4" cy="-4" r="3.5" fill="{color}"/>'
             f'<text x="14" y="0" class="s" font-size="12.5" font-weight="500" fill="{c["text"]}">{name}</text>'
-            f'<text x="148" y="0" text-anchor="end" class="s" font-size="12" fill="{c["muted"]}">{pct}%</text>'
+            f'<text x="158" y="0" text-anchor="end" class="s" font-size="12" fill="{c["muted"]}">{pct}%</text>'
             f"</g>"
         )
 
-    # Left card: TL=0, TR=10, BR=10, BL=28 | Right card: TL=10, TR=0, BR=28, BL=10
-    left_card = "M0 0H384A10 10 0 0 1 394 10V122A10 10 0 0 1 384 132H28A28 28 0 0 1 0 104Z"
-    right_card = "M416 0H800V104A28 28 0 0 1 772 132H416A10 10 0 0 1 406 122V10A10 10 0 0 1 416 0Z"
+    # 6px gap (397..403) | Left: TL=0, TR=8, BR=8, BL=28 | Right: TL=8, TR=0, BR=28, BL=8
+    left_card = "M0 0H389A8 8 0 0 1 397 8V124A8 8 0 0 1 389 132H28A28 28 0 0 1 0 104Z"
+    right_card = "M411 0H800V104A28 28 0 0 1 772 132H411A8 8 0 0 1 403 124V8A8 8 0 0 1 411 0Z"
 
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 132" width="800" height="132" role="img" aria-label="GitHub Stats">'
@@ -127,12 +127,12 @@ def render_svg(c, commits, stars, repos, langs):
         f'<text x="230" y="20" class="s" font-size="12.5" fill="{c["muted"]}">Public repos</text>'
         f'</g>'
         f'<path d="{right_card}" fill="{c["bg"]}"/>'
-        f'<text x="434" y="34" class="s" font-size="12" font-weight="600" fill="{c["muted"]}" letter-spacing=".4">LANGUAGES</text>'
-        f'<g transform="translate(434,52)">'
+        f'<text x="431" y="34" class="s" font-size="12" font-weight="600" fill="{c["muted"]}" letter-spacing=".4">LANGUAGES</text>'
+        f'<g transform="translate(431,52)">'
         f'<rect width="{bar_w}" height="10" rx="5" fill="{c["track"]}"/>'
         f'<g clip-path="url(#b)">{"".join(bar_rects)}</g>'
         f'</g>'
-        f'<g transform="translate(434,86)">{"".join(legend_items)}</g>'
+        f'<g transform="translate(431,86)">{"".join(legend_items)}</g>'
         f'</svg>\n'
     )
 
