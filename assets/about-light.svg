@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180" role="img" aria-label="About Nori">
+  <defs>
+    <style>
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      .fade-1 {
+        opacity: 0;
+        animation: fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.1s forwards;
+      }
+      .fade-2 {
+        opacity: 0;
+        animation: fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards;
+      }
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Left Card: Bio (0..544, outer-left=0, inner-right=10) -->
+  <path d="M 0 0 H 534 A 10 10 0 0 1 544 10 V 170 A 10 10 0 0 1 534 180 H 0 Z" fill="#F4F2F8" />
+  <g transform="translate(28, 0)">
+    <text x="0" y="34" class="sans" font-size="12" font-weight="600" fill="#5D5968" letter-spacing="0.4">ABOUT</text>
+    <g class="fade-1">
+      <text x="0" y="68" class="sans" font-size="15" font-weight="500" fill="#18161F">
+        23-year-old CS student from Italy, been tinkering with
+      </text>
+      <text x="0" y="90" class="sans" font-size="15" font-weight="500" fill="#18161F">
+        the web since 2014.
+      </text>
+
+      <text x="0" y="124" class="sans" font-size="14.5" font-weight="400" fill="#5D5968">
+        Mostly into frontend and UI work, building side projects
+      </text>
+      <text x="0" y="146" class="sans" font-size="14.5" font-weight="400" fill="#5D5968">
+        with JS, Python, Java, and C in my free time.
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Card: Basics (556..800, inner-left=10, outer-right=0) -->
+  <path d="M 566 0 H 800 V 180 H 566 A 10 10 0 0 1 556 170 V 10 A 10 10 0 0 1 566 0 Z" fill="#F4F2F8" />
+  <g transform="translate(584, 0)">
+    <text x="0" y="34" class="sans" font-size="12" font-weight="600" fill="#5D5968" letter-spacing="0.4">BASICS</text>
+    <g class="fade-2">
+      <text x="0" y="68" class="sans" font-size="13.5" fill="#5D5968">Age</text>
+      <text x="188" y="68" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">23</text>
+
+      <text x="0" y="95" class="sans" font-size="13.5" fill="#5D5968">Location</text>
+      <text x="188" y="95" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">Italy</text>
+
+      <text x="0" y="122" class="sans" font-size="13.5" fill="#5D5968">Web dev</text>
+      <text x="188" y="122" text-anchor="end" class="sans" font-size="13.5" font-weight="600" fill="#6D4AFF">Since 2014</text>
+
+      <text x="0" y="149" class="sans" font-size="13.5" fill="#5D5968">Locale</text>
+      <text x="188" y="149" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">IT / EN</text>
+    </g>
+  </g>
+</svg>
