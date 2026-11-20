@@ -19,8 +19,8 @@
     </style>
   </defs>
 
-  <!-- Left Card: Bio (0..544, outer-left=0, inner-right=10) -->
-  <path d="M 0 0 H 534 A 10 10 0 0 1 544 10 V 170 A 10 10 0 0 1 534 180 H 0 Z" fill="#F4F2F8" />
+  <!-- Left Card: Bio (0..547, outer-left=0, inner-right=8) -->
+  <path d="M 0 0 H 539 A 8 8 0 0 1 547 8 V 172 A 8 8 0 0 1 539 180 H 0 Z" fill="#F4F2F8" />
   <g transform="translate(28, 0)">
     <text x="0" y="34" class="sans" font-size="12" font-weight="600" fill="#5D5968" letter-spacing="0.4">ABOUT</text>
     <g class="fade-1">
@@ -40,22 +40,22 @@
     </g>
   </g>
 
-  <!-- Right Card: Basics (556..800, inner-left=10, outer-right=0) -->
-  <path d="M 566 0 H 800 V 180 H 566 A 10 10 0 0 1 556 170 V 10 A 10 10 0 0 1 566 0 Z" fill="#F4F2F8" />
-  <g transform="translate(584, 0)">
+  <!-- Right Card: Basics (553..800, 6px gap, inner-left=8, outer-right=0) -->
+  <path d="M 561 0 H 800 V 180 H 561 A 8 8 0 0 1 553 172 V 8 A 8 8 0 0 1 561 0 Z" fill="#F4F2F8" />
+  <g transform="translate(581, 0)">
     <text x="0" y="34" class="sans" font-size="12" font-weight="600" fill="#5D5968" letter-spacing="0.4">BASICS</text>
     <g class="fade-2">
       <text x="0" y="68" class="sans" font-size="13.5" fill="#5D5968">Age</text>
-      <text x="188" y="68" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">23</text>
+      <text x="191" y="68" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">23</text>
 
       <text x="0" y="95" class="sans" font-size="13.5" fill="#5D5968">Location</text>
-      <text x="188" y="95" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">Italy</text>
+      <text x="191" y="95" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">Italy</text>
 
       <text x="0" y="122" class="sans" font-size="13.5" fill="#5D5968">Web dev</text>
-      <text x="188" y="122" text-anchor="end" class="sans" font-size="13.5" font-weight="600" fill="#6D4AFF">Since 2014</text>
+      <text x="191" y="122" text-anchor="end" class="sans" font-size="13.5" font-weight="600" fill="#6D4AFF">Since 2014</text>
 
       <text x="0" y="149" class="sans" font-size="13.5" fill="#5D5968">Locale</text>
-      <text x="188" y="149" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">IT / EN</text>
+      <text x="191" y="149" text-anchor="end" class="sans" font-size="13.5" font-weight="500" fill="#18161F">IT / EN</text>
     </g>
   </g>
 </svg>
