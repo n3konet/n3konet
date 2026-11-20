@@ -2,17 +2,17 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-    <img alt="Hi, I'm Nori" src="./assets/hero-dark.svg" width="100%" />
+    <img alt="Hi, I'm Nori" src="./assets/hero-dark.svg?1" width="100%" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/about-light.svg" />
-    <img alt="About Nori" src="./assets/about-dark.svg" width="100%" />
+    <img alt="About Nori" src="./assets/about-dark.svg?1" width="100%" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
-    <img alt="GitHub Stats" src="./assets/stats-dark.svg" width="100%" />
+    <img alt="GitHub Stats" src="./assets/stats-dark.svg?1" width="100%" />
   </picture>
 </div>
 
